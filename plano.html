@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Plano Alimentar</title>
+
+	<!-- Bootstrap CSS file -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+	<!-- Font Awesome Icons-->
+	<link rel="stylesheet" href="./css/all.min.css">
+
+	<!-- CSS custom file -->
+	<link rel="stylesheet" href="./css/plano.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-image">
+
+	<input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+
+	<div class="sidebar">
+		<header>Menu</header>
+		<ul>
+			<li><a href="plano.html"><i class="fas fa-clipboard"></i>Plano Alimentar</a></li>
+			<li><a href="#"><i class="fas fa-calendar-alt"></i>Calendário</a></li>
+			<li><a href="receitas.html"><i class="fas fa-video"></i>Receitas</a></li>
+			<li><a href="chat.html"><i class="fas fa-comment"></i>Chat</a></li>
+			<li><a href="conta.html"><i class="fas fa-wrench"></i>Minha Conta</a></li>
+			<li><a href="paciente.html"><i class="fas fa-door-open"></i>LOGOUT</a></li>
+		</ul>
+	</div>
+
+	<main class="site-main">
+
+		<!-- Topo da Página-->
+		<section class="top-site">
+			<picture class="">
+				<img src="./img/imagem1.png" class="mx-auto d-block" alt="Logo King Nutri" width="100px">
+				<figcaption class="fonte-padrao">King Nutri</figcaption>
+			</picture>
+		</section>
+
+		<section class="container tamanho-jumbo">
+			<div class="jumbotron">
+				<h1 class="display-4">Plano Alimentar</h1>
+				<span class="lead">Paciente: </span>
+				<span class=""><strong>Rodrigo Donizetti Gabiati</strong><br></span>
+				<span class="lead">Objetivo: </span>
+				<span class="lead cor">Hipertrofia</span>
+				<p><small>Informações abaixo atualizadas pelo seu nutricionista*</small></p>
+				<hr class="my-4">
+				<table class="table" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+					<thead class="thead-dark">
+						<tr>
+							<th colspan="2">Café da Manhã - 7:00 am</th>
+						</tr>
+					</thead>
+					<tbody class="collapse" id="collapseExample">
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>300ml de suco de fruta</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>2 fatias de pão integral</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 colher de sobremesa de mel ou geléia (sem adição de açúcar ou aspartame ou orgânica) ou 2 pontas de faca de manteiga ou 1 colher de sobremesa de azeite extra virgem de oliva (com orégano) ou 2 fatias finas de frios</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr class="my-4">
+				<table class="table" type="button" data-toggle="collapse" data-target="#lancheManha" aria-expanded="false" aria-controls="lancheManha">
+					<thead class="thead-dark">
+						<tr>
+							<th colspan="2">Lanche da Manhã - 10:00 am</th>
+						</tr>
+					</thead>
+					<tbody class="collapse" id="lancheManha">
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>200ml de suco de fruta ou água de coco</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>3 bisnaguinhas</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>3 pontas de faca de manteiga ou requeijão ou 3 fatias finas de frios</td>
+						</tr>
+						<tr>
+							<td><strong>OU</strong></td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>200ml de suco de fruta ou água de coco</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>2 fatias de pão integral</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>2 pontas de faca de manteiga ou 2 fatias finas de frios</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr class="my-4">
+				<table class="table" type="button" data-toggle="collapse" data-target="#almoco" aria-expanded="false" aria-controls="almoco">
+					<thead class="thead-dark">
+						<tr>
+							<th colspan="2">Almoço - 12:00 pm</th>
+						</tr>
+					</thead>
+					<tbody class="collapse" id="almoco">
+						<tr>
+							<td colspan="2"><strong>OPÇÃO 1</strong></td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>Salada de folhas e vegetais crus (folhas verde escuras) – 1 prato separado do prato quente. Temperos: pouco sal, 1 colher de sobremesa de azeite extra virgem de oliva, e ervas como orégano, manjericão, alecrim, tomilho, cebola, alho,semente de gergelim moída ou gersal</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>3 colheres de sopa de legumes cozidos</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>6 colheres de sopa de arroz integral</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 concha (média) de feijão</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>2 filés (médios) de carne grelhado</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 fruta</td>
+						</tr>
+						<tr>
+							<td colspan="2"><strong>OPÇÃO 2</strong></td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>Salada de folhas e vegetais crus (folhas verde escuras) – 1 prato separado do prato quente. Temperos: pouco sal, 1 colher de sobremesa de azeite extra virgem de oliva, e ervas como orégano, manjericão, alecrim, tomilho, cebola, alho,semente de gergelim moída ou gersal</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>3 escumadeiras de macarrão</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>½ concha grande de molho de tomate</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>2 filés (médios) de frango grelhado</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 fruta</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr class="my-4">
+				<table class="table" type="button" data-toggle="collapse" data-target="#lancheTarde" aria-expanded="false" aria-controls="lancheTarde">
+					<thead class="thead-dark">
+						<tr>
+							<th colspan="2">Lanche da Tarde - 15:30 pm</th>
+						</tr>
+					</thead>
+					<tbody class="collapse" id="lancheTarde">
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>300ml de suco de fruta</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>2 fatias de pão integral</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 colher de sobremesa de mel ou geléia (sem adição de açúcar ou aspartame ou orgânica) ou 2 pontas de faca de manteiga ou 1 colher de sobremesa de azeite extra virgem de oliva (com orégano) ou 2 fatias finas de frios</td>
+						</tr>
+						<tr>
+							<th><strong>OU</strong></th>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>300ml de suco de fruta</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 fatia grande de bolo simples</td>
+						</tr>
+						<tr>
+							<th><strong>OU</strong></th>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>300ml de Iogurte natural</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 fruta</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 xícara (chá) de cereais (granola, aveia, corn flakes)</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr class="my-4">
+				<table class="table" type="button" data-toggle="collapse" data-target="#jantar" aria-expanded="false" aria-controls="jantar">
+					<thead class="thead-dark">
+						<tr>
+							<th colspan="2">Jantar - 19:00 pm</th>
+						</tr>
+					</thead>
+					<tbody class="collapse" id="jantar">
+						<tr>
+							<td colspan="2"><strong>OPÇÃO 1</strong></td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>Salada de folhas e vegetais crus (folhas verde escuras) – 1 prato separado do prato quente. Temperos: pouco sal, 1 colher de sobremesa de azeite extra virgem de oliva, e ervas como orégano, manjericão, alecrim, tomilho, cebola, alho,semente de gergelim moída ou gersal</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>3 colheres de sopa de legumes cozidos</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>6 colheres de sopa de arroz integral</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 concha (média) de feijão</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>2 filés (médios) de carne grelhado</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 fruta</td>
+						</tr>
+						<tr>
+							<td colspan="2"><strong>OPÇÃO 2</strong></td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>Salada de folhas e vegetais crus (folhas verde escuras) – 1 prato separado do prato quente. Temperos: pouco sal, 1 colher de sobremesa de azeite extra virgem de oliva, e ervas como orégano, manjericão, alecrim, tomilho, cebola, alho,semente de gergelim moída ou gersal</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>3 escumadeiras de macarrão</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>½ concha grande de molho de tomate</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>2 filés (médios) de frango grelhado</td>
+						</tr>
+						<tr>
+							<th><i class="fas fa-check"></i></th>
+							<td>1 fruta</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+	</main>
+
+
+	<!-- JQuery JS file -->
+	<script src="./js/jquery.3.5.1.js"></script>
+
+	<!-- Popper CDN adress -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap JS file -->
+	<script src="./js/bootstrap.min.js"></script>
+
+	<!-- Custom JS file -->
+	<script src="./js/app.js"></script>
+</body>
+</html>

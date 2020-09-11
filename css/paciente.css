@@ -1,0 +1,223 @@
+* {
+	box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("/img/bg-abstract.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fonte-padrao {
+    font-family: 'Lobster', cursive;
+    color: #003300;
+    font-size: 50px;
+    margin-left: 580px;
+}
+
+.card-shadow {
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/* Login Form */
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+/* FIM LOGIN FORM */
+
+hr {
+    margin: 10rem 10rem;
+}
+
+/* Grid de Beneficios */
+
+.site-main .features-grid h4 {
+    padding-top: 20px;
+		color: green;
+		font-family: 'Varela Round', sans-serif;
+		font-weight: 500;
+}
+
+.site-main .features-grid h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px 0;
+}
+
+/* Seção de Beneficios */
+
+.beneficios {
+	background-image: linear-gradient(green, #66ff66);
+	margin-top: 50px;
+}
+
+.titulo {
+	padding: 80px 0;
+}
+
+.site-main .beneficios .titulo span:first-child {
+	font-size: 50px;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	padding-right: 10px;
+	letter-spacing: 8px;
+}
+
+.titulo-beneficios {
+	font-size: 26px;
+	font-family: 'Varela Round', sans-serif;
+	color: black;
+}
+
+.site-main .beneficios .titulo-artigo::after {
+	content: " ";
+	height: 5px;
+	width: 20vw;
+	background: black;
+	display: inline-block;
+	margin-left: 3%;
+	transform: translateY(-10px);
+}
+
+.icon-text {
+	float: left;
+	border: 5px solid #262626;
+	width: 100px;
+	margin-left: 100px;
+	padding: 20px;
+	border-radius: 150px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.site-main .beneficios .titulo-artigo span {
+	font-size: 35px;
+  font-family: 'Varela Round', sans-serif;
+	margin-left: 20px;
+	color: black;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+
+.site-main .beneficios .texto-artigo p {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.espacamento-artigo {
+  padding: 60px 0;
+  border-top: 3px solid green;
+  border-left: 3px solid green;
+  border-right: 3px solid green;
+}
+
+.site-main .beneficios .espacamento-artigo:last-child {
+  border-bottom: 3px solid green;
+}
+
+.fonte-padrao2 {
+  font-family: 'Lobster', cursive;
+  color: #003300;
+  font-size: 50px;
+}
+
+footer.footer-area{
+	padding: 2rem 0;
+	background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+	font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+	font-size:22px;
+	padding: 2rem;
+	color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+	color: var(--primary-color);
+}
+
+.texto-footer {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+}
+
+.tamanho-login {
+  width: 50%;
+}
+
+
+

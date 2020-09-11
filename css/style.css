@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url("/img/bg-img.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-main .start .texto-container > span {
+    font-size: 16px;
+}
+
+.fonte-padrao {
+    font-family: 'Lobster', cursive;
+    color: #003300;
+    font-size: 50px;
+    margin-left: 580px;
+}
+
+.card-shadow {
+    box-shadow: 5px 5px 5px #888888;
+}

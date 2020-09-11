@@ -1,0 +1,25 @@
+Slide 1
+Olá, me chamo Rodrigo Gabiati
+e gostaria de apresentar um pouco do meu projeto referente ao desafio que a FIAP + TNT propuseram aos alunos da faculdade.
+
+Slide 2
+Como o desafio deixou a escolha bem ampla, eu resolvi focar em uma plataforma de serviços de nutrição.
+A escolha foi feita diante deste cenário de pandemia que vivemos atualmente em que muitas pessoas acabam tendo medo ou um certo receio de se expor fisicamente nas ruas
+
+Slide 3
+O nome da empresa escolhido é "King Nutri" e como já havia mencionado anteriormente é uma plataforma web de serviços de nutrição.
+
+Slide 4
+Bom meu nome é Rodrigo Gabiati e sou estudante do curso de banco de dados da FIAP.
+
+Slide 5
+Bom o objetivo dessa plataforma é que ela seja uma alternativa tanto para os pacientes quanto para os nutricionista, ou seja, ele é um serviço de mão dupla. Os pacientes pagarão uma taxa por mês para utilização da plataforma e os nutricionistas também terão de contribuir com uma taxa conseguindo assim angariar vários pacientes sem mesmo ter de sair de casa.
+Algumas das features dessa plataforma é Plano alimentar totalmente customizado.
+Chat em tempo real com seu nutricionista
+Integração a dispositivos móveis como celulares para que gere alertas quando for a hora da refeiçao.
+
+Slide 6
+Para criar essa plataforma eu utilizei algumas linguagens como HTML, CSS, Javascript e Jquery e também utilizei o framework Bootstrap
+
+Slide 7
+Sem muitas delongas então vamos partir para o teste prático da plataforma
